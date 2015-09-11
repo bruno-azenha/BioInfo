@@ -1,0 +1,17 @@
+# Introduction to Bioinformatics - Prof. Dilvan
+# ICMC - USP
+# Module 1
+# Bruno Azenha Goncalves - 7143444
+
+In this experiment, I, once again, got to work with FASTA files. This time with the genomes
+of the chimpanze and human mitochondria.
+
+After experimenting and getting a good window size around 1250bp, it was outstanding to see
+the huge similarity between the human and the chimp mitochondria.
+
+For some reason, which I don't know, the two genomes appear to be out of phase, which only
+leaves me guessing about the possible reasons for this.
+
+The very important result is that the two genomes really are so alike! This has to be because
+of the symbiotic origins of the mithocondria, and to be able to run my own tests and verify such
+similarity is a thrill! 

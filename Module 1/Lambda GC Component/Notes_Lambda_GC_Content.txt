@@ -1,0 +1,15 @@
+# Introduction to Bioinformatics - Prof. Dilvan
+# ICMC - USP
+# Module 1
+# Bruno Azenha Goncalves - 7143444
+
+In this experiment, I downloaded a FASTA file with the genome of the lambda bacteriophage.
+With it, I was able to do some statistical analysis of the frequency of GC bp in it's genome.
+
+The only changing parameter through the graphs is the window size that was used for the sliding
+window algorithm.
+
+With the size window of 1000bp, I was able to see a clear change in the frequency of CG pairs in
+the genome of the species. This behaviour would not show up with randomly distributed data, and
+surely means the organization of different genes, in which CG pairs appear less than AT and the 
+other way around as well. 

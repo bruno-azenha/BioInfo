@@ -150,6 +150,8 @@ def main():
     
 
     # ---- Exercise 3 ----
+    print(" ------ Exercise 3 ------")
+    print("")
 
     genomeFlu = getGenome("genomes/fluGenome.fasta")
     genomeRandomFlu = randomizeGenome(genomeFlu)
@@ -166,7 +168,6 @@ def main():
         if ((orfList[i][1]- orfList[i][0])/3 + 2 > maxRandomOrf):
             genomeBuffer.append(orfList[i])
 
-    print("")
     print ("Considers only ORFs longer than Longest random ORF")
     print ("Cutoff Codon Number: {}".format(maxRandomOrf))
     print ("ORFs before cutoff: {}".format(ORFBefore))

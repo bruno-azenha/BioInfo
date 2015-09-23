@@ -1,58 +1,17 @@
-3rd Module - Intro to Bioinformatics
-Bruno Azenha Goncalves
-ICMC - USP
+[[     0     -5    -10 ..., -14225 -14230 -14235]
+ [    -5      5      0 ..., -14215 -14220 -14225]
+ [   -10      0      1 ..., -14205 -14210 -14215]
+ ..., 
+ [ -6330  -6320  -6310 ...,  -2717  -2722  -2727]
+ [ -6335  -6325  -6315 ...,  -2707  -2712  -2717]
+ [ -6340  -6330  -6320 ...,  -2697  -2702  -2707]]
 
------ Exercise 1 -----
-
-Sequence 1 - Aniridia
+Aniridia
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ATGCAGAACAGTCACAGCGGAGTGAATCAGCTCGGTGGTGTCTTTGTCAACGGGCGGCCACTGCCGGACTCCACCCGGCAGAAGATTGTAGAGCTAGCTCACAGCGGGGCCCGGCCGTGCGACATTTCCCGAATTCTGCAGGTGTCCAACGGATGTGTGAGTAAAATTCTGGGCAGGTATTACGAGACTGGCTCCATCAGACCCAGGGCAATCGGTGGTAGTAAACCGAGAGTAGCGACTCCAGAAGTTGTAAGCAAAATAGCCCAGTATAAGCGGGAGTGCCCGTCCATCTTTGCTTGGGAAATCCGAGACAGATTACTGTCCGAGGGGGTCTGTACCAACGATAACATACCAAGCGTGTCATCAATAAACAGAGTTCTTCGCAACCTGGCTAGCGAAAAGCAACAGATGGGCGCAGACGGCATGTATGATAAACTAAGGATGTTGAACGGGCAGACCGGAAGCTGGGGCACCCGCCCTGGTTGGTATCCGGGGACTTCGGTGCCAGG-G-----CA---ACC-TAC--GCAA---G--ATG-G----C----T------GCCAGCAACAGGAAGGAGGGGGAGAGAATACCAACTCCATCAGTTCCAACGGAGAAGATTCAGATGAGGCTCAAATGCGACTTCAGCTGAAGCGGAAGCTGCAAAGAAATAGAACATCCTTTACCCAAGAGCAAAT--T-----------G-AGGCCCTGGAGAAAGAGTTTGAGAGA-ACCCAT-TATC--CAGATGTGTTTGCC--C-GAG-A-A----AG---A-C-T-AG-C-A---G-----C--C----AA-A----------A-TAGATCTACCTGAAGCAAGAATACAGGTATG-GTT----T---T------CT-----AA----T---------CG-------------A--A-G---G-G------C-CA--A--A---TGGAGAAGAGAAGAAAAACTGAGGAATCAGAGAAGACAGGCCAGCAACACACCTAGTCATATTCCTATCAGCAGTAGTTTCAGCACCAGTGTCTACCAACCAATTCCACAACCCACCACACCGGTTTCCTCCTTCACATCTGGCTCCATGTT----G-GGCCGAACAGACACAGCCCTCACAAACACCTACAGCG-CTC-TGC-C-GC-CT-ATG-CCCAGCTT-----CACCA-TGG-CAA-AT--A-AC--CTG--C-CT-A----T------------G--C------AA-CC----C--------C--CA-G---T-C--C-CC--A---G-----C----C-AG---AC-C--T--C--C-T-CATA-----C-T----C--C-T-G----CA--T-G-C-T---G--CC-C-A-------C----C--AG---CC-C--T--TCG--G------------TGAA----T---G-GG---C-GGA----GTT--------A--T---G-A-TA-CCTACAC---------------C-----CCC-CC---------A-C-ATATGCAGACACACATGAACAGTCAGCCAATGGGCACCTCGGGCACCACTTCAACAGGACTCATTTCCCCTGGTGTGTCAGTTCCAGTTCAAGTTCCCGGAAGTGAACCTGATATGTCTCAATACTGGCCAAGATTACAGT----------AA
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | |   | | |    ||                     |     | |  |       |            ||   | ||    ||   |      |        |     |   ||        || |    | |    | |      |    | |  |        |     |   | |   | |  | |  || ||             |       |||  ||   |     |  | | |   || | |      | |  | |   |  |  |   || ||         |   ||      |||             | |       | |   |            |||  |    |      |  ||  |     |    | |    |     |  |  | |  ||      |   |           |     |   |||    |                    ||  | |    |  |    ||   | | |   |          | |                    |                 | | |      |    |       | |   |            |       | |      |    ||       ||        ||  |   ||     ||    |   | |   || |     | ||||  |||  |             | || || |     |   ||  |  |   |    | |    ||  ||  ||  |  |       |    |                            |     | |          |       | |  |    ||  |  || |     | |    |   |              |                                |     | |        |   |  |         |  |        |      |             | | |   || ||||       ||    |  ||||| |        | | | |      |           | |          ||    ||   |    |     |   |         | ||   ||        || |   |  | |                  |     |       |          ||         |   |     |    | |                                  |    |        |  |           | ||                 |         |        |                      |        |     |           | |         |               |          |                           |      ||               |               |                   |         ||              |       | |     ||      |    ||   |              |  | |      ||    ||     |   |       |  |   |     || ||      ||        ||| |    |  | || |            ||
 TTCGCACGGCGTGCGTTTGGCTGAACACAGCAGTCTCTTGGCTAAAGCTTTCATGAGCAGTGCATGTAATAAAAACTGAGATCCAACTATGTTTACATTGCAACCAACTCCAACTGCTATAGGCACCGTGGTTCCCCCATGGTCAGCGGGAACATTGATAGAGCGCCTGCCGTCTTTAGAAGACATGGCTCACAAGGGTCACAGTGGAGTAAATCAGCTGGGTGGCGTTTTTGTTGGAGGAAGGCCTTTGCCAGATTCAACACGGCAAAAAATTGTCGAACTGGCACATTCTGGAGCTCGGCCATGTGATATTTCTCGAATTCTGCAAGTATCAAATGGATGTGTGAGCAAAATTCTCGGGAGGTATTATGAAACAGGAAGCATACGACCACGTGCTATCGGAGGATCCAAGCCACGTGTGGCCACAGCCGAAGTCGTTAGCAAAATTTCGCAGTACAAACGCGAGTGTCCTAGCATATTTGCTTGGGAAATTCGGGATAGATTACTTCAGGAGAACGTTTGTACTAACGATAATATACCAAGTGTGTCCTCAATAAACCGTGTATTGAGAAACTTGGCTGCGCAAAAGGAGCAGCAAAGCACGGGATCCGGGAGCTCCAGCACATCCGCCGGCAACTCAATCAGCGCAAAAGTGTCTGTCAGCATCGGTGGCAACGTGAGCAATGTGGCAAGCGGATCGAGAGGCACGTTGAGCTCTTCCACCGATCTTATGCAGACAGCCACTCCTCTTAACTCTTCGGAAAGCGGTGGCGCAACGAACTCCGGGGAGGGTAGTGAACAGGAGGCGATTTACGAGAAGCTTCGGCTGTTAAATACTCAGCACGCTGCAGGACCAGGACCACTGGAGCCTGCCAGAGCAGCGCCCTTGGTAGGTCAATCACCCAACCACCTAGGAACCCGATCCAGCCACCCCCAGCTGGTGCACGGTAACCATCAGGCACTACAGCAGCATCAACAGCAGAGCTGGCCGCCCCGTCACTATTCCGGATCTTGGTACCCCACCTCTCTTAGCGAAATACCCATCTCATCGGCTCCCAATATCGCATCCGTTACGGCGTATGCATCAGGACCTTCACTTGCTCACTCACTGAGTCCACCCAACGACATCAAAAGCCTGGCCAGTATCGGTCACCAGAGAAACTGCCCCGTTGCAACGGAGGACAT-ACATTTAAAAAAAGAACTTGATGGTCATCAGTCCGATGAAACGGGCTCCGGTGAAGGTGAAAACTCCAATGGTGGCGCTTCAAATATAGGAAACACTGAGGATGATCAAGCTCGGCTCATACTAAAAAGAAAGTTGCAACGCAATCGAACATCTTTCACGAACGACCAGATAGACAGTCTTGAAAAAGAGTTTGAACGAACACACTATCCAGATGTTTTTGCCCGCGAACGTTTGGCTGGAAAGATTGGGTTGCCAGAGGCAAGAATTCAGGTTTGGTTCTCAAACCGTCGAGCAAAATGGCGTCGCGAGGAGAAGCTGCGAAACCAGCGAAGAACACCAAATTCCACAGGAGCTAGTGCAACTTCTTCCTCTACATCGGCAACCGCCTCTTTGACTGACAGCCCTAACAGCCTAAGTGCTTGTTCCTCGCTGCTGTCCGGATCAGCTGGGGGTCCCTCAGTCAGTACCATTAATGGCTTATCGTCTCCAAGCACATTGTCTACTA-ATGTCAATGCTCCAACGCTTGGCGCTGGGATCGATAGCTCTGAAAGCCCAACACCAATCCCGCACATTCGGCCTAGCTGCACCTCTGACAATGACAATGGTCGTCAAAGTGAAGATTGCAGAAGAGTTTGTTCTCCATGCCCACTTGGCGTTGGCGGGCATCAAAATACTCATCATATCCAGAG-CAATGGTCACGCCCAAGGTCATGCACTTGTTCCTGCCATTTCGCCACGACTCAATTTTAATAGTGGTAGTT-TCGGCGCGATGTACTCCAACATGCATCATACGGCGTTATCCATGAGCGATTCATATGGGGCGGTTACGCCGATTCCGAGCTTTAACCACTCA-GCTGTCGGTCCGCTGGCTCCGCCATCGCCAATACCGCAACAGGGCGATCTTACCCCTTCCTCGTTATATCCGTGCCACATGACCCTACGACCCCCTCCGATGGCTCCCGCTCACCATCACATCGTGCCGGGTGACGGTGGCAGACCTGCGGGCGTTGGCCTAGGCAGTGGCCAATCTGCGAATTTGGGAGCAAGCTGCAGCGGATCGGGATACGAAGTGCTATCTGCCTACGCGTTGCCACCG-CCCCCTATGGCGTCGAGCTCTGCTGCTGATTCAAGCTTCTCAGCCGCGTCCAGTGCCAGCGCTAATGTGAC-CCCACATCACACCATAGCCCAAGAATCATGCCCCTCTCCGTGTTCAAGCGCGAGCCACTTTGGAGTTGCTCACAGTTCTGGGTTTTCGTCCGACCCGATTTCACCGGCTGTATCTTCGTATGCACATATGAGCTACAATTACGCGTCGTCCGCTAACACCATGACGCCTTCCTCCGCCAGCGGCACATCAGCACACGTGGCCCCGGGAAAACAACAGTTCTTCGCCTCCTGTTTCTACTCACCGTGGGTCTAGGAACAGACTGGCGATTTGAGCAGAGAAGCACTGCGAAAGGACTATTTACATAGTTGAATGTATATCTAAAGGAGGCCATAATAAATCGAATTTACATATCTCTTGAAAAATAATGGAGGTTGTAGAAAAATACATTTGTATGTATAAATTATATAGTTCCGCCCATTAAATCCAATCTATAGTGTAGAATAATTGGTGTAAATTAAATGATATAATTTTGACAAATAAAAAAAAAAAAAAAAA
-Sequence 2 - Drosophila
+Drosophila
 
 Match Number: 335
 Gap Number: 1593
 Mismatch Number: 927
-
-With this Global Alignment Result using a Needleman-Wunsch algorithm that I implemented MMyself, 
-we can see that considering the difference in the size of the sequences, the number of matches is
-very significant, although a local alignment would probably yield even better results.
-The result with NCBI algorithm was very different, but that was probably due to the different 
-weight, for gaps, matches and mismatches
-
------ Exercise 2 -----
-Using NCBI BLAST and the local alignment, two subsections with large similarity were found, the first 
-with 73% similarity and the second with 71%
-
-Blasting this significant sequence against all GenBank database, there were a lot of matches:
-
-Otolemur Garnettii, Aotus Nancymaae, Callithrix Jacchus, Sus Scrofa, Capra Hircus, 
-Propothecus Coquereli, Ornicus Orca, Ovis Aries, Camelus Dromedarius, Bison Bison, 
-Bos Taurus, Pan Paniscus, Ursus Maritimus, Balaenoptera Acutorostrata, Bubalus Bubalis, 
-Physeter Catodon, Vicugna Pacos, Camelus Ferus, Pantholops Hodgsonii, Bos Mutus, 
-Orcinus Orca, Gorilla Gorilla, Mustela Putorius, Microcebus Murinus, Cercocebus Atys, 
-Mandrillus Leucophaeus
-
-Therefore, we can see that this sequence has much biological significance, as expected.
-
------ Exercise 3 -----
-I aligned SHH gene from humans and chimps
-
-Nucleotide alignment:
-https://goo.gl/3DyXX8
-
-Protein alignment:
-https://goo.gl/Vtfx6X
-
-In both alignment, the similarities were well above 90%. It Looks like it works just fine! :)
-
------ Exercise 4 -----
-
-
-
-
-	
-
-
-
-

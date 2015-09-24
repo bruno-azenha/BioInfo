@@ -13,3 +13,11 @@ The experiment is run 100 million times. I get the time that the resulting seque
 Then I run this algorithm 10 times, writing down the results and taking the average.
 
 The average probability was 4.57 * 10^(-5)
+
+
+---- Exercise 2 ----
+
+First thing to do was to save the OR21 information from the 347OR,fasta file into another
+one, for easy access.
+
+

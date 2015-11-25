@@ -1,0 +1,27 @@
+Module 8
+
+Author: 
+	Bruno Azenha Gonçalves - 7143444
+
+Exercise 1:
+	For this exercise, it was asked of us to do a Synteny study on two varieties of Chlamydias.
+	One of the parts of the experiment was to do a global alignment of the ORFs found in both the 
+	muridarum and the caviae varieties. Using the given parameters for ORF finding, there were more
+	than 900 ORFs found by NCBI ORF finder on each genome. Sadly, I was not able to make an alignment 
+	in due time with such a large amuount of ORFs to align.
+
+	So instead, I used the ncbi blast to align ang checked the dot matrix generated, which I attached.
+
+	In the dot matrix: 
+	Y-axis - Chlamydia Caviae
+	X-axis - Chlamydia Muridarum
+	Each dot is a gene simmilar enough and the axis metric is in nucleotides.
+
+	As we can see, most of the genome got inverted between the two species, resulting in long stretches
+	where the off diagonal is stronger. But there are also some somall chunks where synteny happens and some genes in the middle that look like they have been transposed a little, losing any kind of synteny.
+
+Exercise 2: 
+	I selected a small Synteny are from around base 670K to 730K in Muridarum. 770K to 830K in Ceviae:
+
+	again using the NCBI tools, I was able to see the genes in that small area. also in an attached picture.
+

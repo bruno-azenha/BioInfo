@@ -6,7 +6,7 @@
 
 RESULT_SEQUENCE = "01011101001"
 HIDDEN_STATES =   "FFFBBBBBFFF"
-NUMBER_OF_TRIALS = 100000000
+NUMBER_OF_TRIALS = 10000
 
 import sys
 from random import randint
@@ -43,6 +43,7 @@ def RunExperiment():
 def main():
 
 	successes = 0
+
 	for i in range (NUMBER_OF_TRIALS):
 		if RunExperiment() == True:
 			successes = successes + 1

@@ -1,0 +1,25 @@
+5th Module - Intro to Bioinformatics
+Bruno Azenha Goncalves
+ICMC - USP
+
+1.
+	A) The genomes without the Dloops can be found at "/genomes".
+
+	B) Using Clustal Omega I was able to generate the alignment of the three sequences. The result can also be found at "/genomes".
+
+	C) Using Biopython, I was able to read and compare both modern elephant sequences and compare them with the mammoth's. The result is that the Mammoth and the Indian Elephant are closer together than the Mammoth and the African Elephant. All this was done the the "distance.py" python script.
+
+2.
+	These are the 5 organisms whose sequences are more similar to the saber-tooth's mtDNA 12S RNA gene:
+
+	1 - Catopuma badia mitochondrion; E-value = 3e-169; Total score = 604
+	2 - Catopuma temminckii isolate PTE mitochondrion; E-value = 1e-167; Total score = 599
+	3 - Lynx rufus mitochondrion; E-value = 1e-162; Total score = 599
+	4 - Puma concolor mitochondrion; E-value = 1e-162; Total score = 582
+	5 - Prionailurus bengalensis mitochondrion; E-value = 1e-162; Total score = 582
+
+	We can see that the total score is very high and that the E-value is very low. As a lower E-value represents a higher quality of the alignment we can say that there is very little difference between the mitochondria of these species and their commom ancestor is probably not very far in the phylogenetic tree.
+
+3.
+	In order to do this exercise, I'm going through the same process as the first one: Align the three sequences and measure the distances with the python script.
+	The results of the distance measure of my python script point that Whales are geneticaly closer to Cows than Hippos.

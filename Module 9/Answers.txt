@@ -1,0 +1,13 @@
+9th Module - Intro to Bioinformatics
+Bruno Azenha Goncalves
+ICMC - USP
+
+1.
+	For this exercise, instead of using the data from the Textbook, I found the same data already cleaned and in a much better format for reading, which I used.
+	Then I used scipy to do the three clusterings of the different gene expression arrays and plotted the results using matplotlib. I have three beautiful graphs, one for 20 partitions, one for 16 partitions and one for 10 partitions, just as requested. :)
+
+2.
+	This was an interesting exercise, for not having anything to do with gene expression. This one was about simple attributes in a dataset and clustering of it's individuals, so it was more of a clustering exercise.
+	As we see from the actual classification from the pointed class in the database, the clustering algorithm was extremely precise, with only one false negative and no false positive in 73 samples. That is great!
+	I'm not quite sure what was the reason behind also doing a 5-partition clutering, but it was also done anyway.
+

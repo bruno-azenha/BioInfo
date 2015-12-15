@@ -1,0 +1,14 @@
+6th Module - Intro to Bioinformatics
+Bruno Azenha Goncalves
+ICMC - USP
+
+1.
+	In this exercise, the first thing to do was to get an alignment of all the sequences. For that task, I used Clustal Omega. The output of the alignment can be found at the "genomes" folder.
+	With the alignment at hands, I was able to write a quick python script to generate the phylogenetic trees as phyloxml files then used the xml files to plot both the tree with and without the Jukes Cantor correction using a site called Evolview. Interestingly, both situations generatad the same trees.
+	As can be seen in the result trees in this folder, we have common ancestors with the apes, with the Chimpanzee being out closest relative. 
+	The Neanderthal is also genetically closer to us Homo Sapiens than the apes.
+
+2.
+	Using the same procedures as in the first exercise, I was able to generate the phylogenetic tree for the immunodeficiency viruses sampled.
+	Interestingly, it looks like the HIV-1 and HIV-2 have different origins, with the HIV-1 probably originating from Chimpanzees and the HIV-2, with it's genetic proximity with SIV from pig­tailed macaque and maccaca mulatta, probably originated from Macaca genus.
+
